@@ -1,0 +1,50 @@
+/* .custom-auth-body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#bae539 ,rgb(0, 255, 255));
+}
+
+.custom-auth-container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.custom-auth-container h1{
+    font-size: 168px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(
+        http://files.alhttps://www.shutterstock.com/shutterstock/photos/499884700/display_1500/stock-vector-no-access-for-unauthorized-persons-prohibition-sign-no-entry-red-black-and-white-sign-vector-499884700.jpgl-free-download.com/downloadfiles/wallpapers/1920_1080/beautiful_flowers_wallpaper_flowers_nature_1304.jpg        ) center no-repeat;
+    -webkit-text-fill-color:#343434;
+    -webkit-background-clip: text;
+}
+
+.custom-auth-container a{
+    text-decoration: none;
+    background: yellowgreen;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s
+    ;
+}
+
+.custom-auth-container a:hover{
+    background: #e55039;
+}
+
+/* .image{
+    width:300px;
+    height:200px;
+    background-image: url();
+} */ 

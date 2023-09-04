@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.serviceCards {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #81b3fb;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+ 
+}
+/* figure.serviceCards *,
+figure.serviceCards *:before,
+figure.serviceCards *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+} */
+/* figure.serviceCards figcaption {
+  width: 100%;
+} */
+figure.serviceCards h2,
+figure.serviceCards h4,
+figure.serviceCards blockquote {
+  margin: 0;
+}
+figure.serviceCards h2,
+figure.serviceCards h4 {
+  font-weight: 300;
+}
+figure.serviceCards h2 {
+  color: #ffffff;
+}
+figure.serviceCards h4 {
+  color: #81b3fb;
+}
+figure.serviceCards blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.serviceCards blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.serviceCards .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #81b3fb;
+}
+
+.servicesDiv{
+    background-color: #e3ede2;
+}
+
+.logoImg{
+    height: 100px;
+    width: 100px;
+}
+
+.navDiv{
+    color: white;
+}
+
+.serviceImg{
+    height: 700px;
+    margin-top: 10px;
+}
